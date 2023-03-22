@@ -20,7 +20,7 @@ export const getNews = createAsyncThunk(
       console.log(data)
       return data.articles
     } catch (error) {
-      console.log(error)
+      console.log(error)//deneme
     }
   }
 );
